@@ -4,6 +4,12 @@ var builder = WebApplication.CreateBuilder(args);
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
+// Configure HTTPS redirection
+builder.Services.AddHttpsRedirection(options =>
+{
+    options.HttpsPort = builder.Configuration.GetValue<int>("HttpsRedirection:HttpsPort");
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
