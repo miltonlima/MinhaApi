@@ -31,3 +31,6 @@ C:\temp\MinhaApi\obj\Debug\net9.0\refint\MinhaApi.dll
 C:\temp\MinhaApi\obj\Debug\net9.0\MinhaApi.pdb
 C:\temp\MinhaApi\obj\Debug\net9.0\MinhaApi.genruntimeconfig.cache
 C:\temp\MinhaApi\obj\Debug\net9.0\ref\MinhaApi.dll
+C:\temp\MinhaApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\temp\MinhaApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\temp\MinhaApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
